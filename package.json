@@ -13,7 +13,8 @@
   "dependencies": {
     "clouddatabase": "*",
     "flatiron": "0.1.16",
-    "flatiron-cli-config" : "*"
+    "flatiron-cli-config" : "*",
+    "colors": "*"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",

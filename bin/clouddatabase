@@ -7,11 +7,10 @@ app.config.file({ file: path.join(__dirname, '../config', 'config.json') });
 
 app.use(flatiron.plugins.cli, {
   source: path.join(__dirname, '../lib', 'commands'),
-  usage: 'Add Usage',
+  usage: require('../lib/usage'),
   dir: require('path').join(__dirname, '../lib', 'commands') // A directory with commands to lazy-load
 });
 
 app.use(require('flatiron-cli-config'));
-
 
 app.start();
