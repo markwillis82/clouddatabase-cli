@@ -1,0 +1,27 @@
+{
+  "author": "Mark Willis <mark.w@immat.co.uk>",
+  "name": "clouddatabase-cli",
+  "description": "Rackspace Cloud Database command line tool",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markwillis82/clouddatabase-cli.git"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {
+    "clouddatabase": "*",
+    "flatiron": "0.1.16",
+    "flatiron-cli-config" : "*"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node bin/clouddatabase"
+  },
+  "bin": "./bin/clouddatabase"
+}
