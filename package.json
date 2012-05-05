@@ -14,7 +14,8 @@
     "clouddatabase": "*",
     "flatiron": "0.1.16",
     "flatiron-cli-config" : "*",
-    "colors": "*"
+    "colors": "*",
+    "async":"*"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
